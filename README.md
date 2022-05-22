@@ -23,18 +23,19 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  ## PayslipGenerator (Console application struture)
  
   **Core** 
-  
+     PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
+                         to generate payslip information.
      Exceptions - Contains custom exception/exceptions where you can use it in the application.
                       
      Interfaces - Contains Interfaces for services used in the application. this contracts can be used the mock the behaviour of the services when needed(specially 
                   in unit testing.
      
-     Models   - Contains models/entities used in the application. These are models or entities used throught the application. 
+     Models   - Contains models/entities used in the application. These are models( or entities) used throught the application. 
                  Employee model - firstname , lastname and annualsalary with validation.
                  TaxItem model - minValue and maxValue and TaxRate defining a tax rule 
                  
      
-     Services - Contains services for Employee creation and TaxCalculations.
+     Services - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.
      
   **Infrastructure** 
       Contains source for TaxRules. 
