@@ -41,6 +41,8 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
   **Infrastructure Folder** 
      
      TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
-    
+ 
+ Design decisions made: folder structues (Core and Infrastrucre) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make them well organized.
+ 
  ## PayslipGenerator.Tests (xunit test project)
        xunit test project created test TaxCreation and EmployeeCreation services mainly.possible of extending by adding more unit tests when application grows.  
