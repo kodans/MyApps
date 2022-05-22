@@ -21,6 +21,11 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  Applicaiton is written using Microsoft Visual Studio Professional 2022 
  
  ## PayslipGenerator (Console application struture)
+ Core Folder includes 
+ 1.)Models(Entities)
+ 2.)Interfaces
+ 3.)Services
+ 4.)Exceptions
  
   **Core Folder** 
   
@@ -42,7 +47,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
      
      TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
  
- Design decisions made: folder structues (Core and Infrastrucre) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make them well organized.
+ Design decisions: folder structues (Core and Infrastrucre) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make the soltion structure simply well-factored. Interfaces are used in appropriate places to swap the implementation logic whenever needed.(E.g: in unit testing). Nature of this structure is to support modularity and encapsulation.
  
  ## PayslipGenerator.Tests (xunit test project)
        xunit test project created test TaxCreation and EmployeeCreation services mainly.possible of extending by adding more unit tests when application grows.  
