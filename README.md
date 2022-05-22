@@ -4,3 +4,7 @@ solution consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  run console application:
  
  run Tests
+
+ Applicaiton is written using Microsoft Visual Studio Professional 2022 
+ 
+ ## 
