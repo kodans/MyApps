@@ -11,7 +11,9 @@ solution consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
   **Core**
      **Exceptions** - Contains custom exception/exceptions where you can use it in the application.
-                      E.g:CustomException.cs
-    
+                      
+     **Interfaces** - Contains interfaces for services used.
+     
+       **Models**   - Contains models/entities used in the application.
     
     
