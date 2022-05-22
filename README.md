@@ -56,4 +56,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  Design decisions: Folder structue (Core and Infrastrucre and can be extended) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make the soltion structure simply well-factored. Interfaces are used in appropriate places to swap the implementation logic whenever needed.(E.g: in unit testing). Nature of this structure is to support modularity and encapsulation.
  
  ## PayslipGenerator.Tests (xunit test project)
-       xunit test project created test TaxCreation and EmployeeCreation services mainly.possible of extending by adding more unit tests when application grows.  
+ 
+ xunit test project created test TaxCreation and EmployeeCreation services mainly.possibility of extending by adding more unit tests when application logic grows.  
+ 
+       
