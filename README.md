@@ -22,6 +22,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
  ## PayslipGenerator (Console application struture)
  Core Folder includes 
+ 
  1.)Models(Entities)
  
  2.)Interfaces
