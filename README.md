@@ -1,2 +1,2 @@
-# MyApps
+# PayslipGenerator 
 My code publications 
