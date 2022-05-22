@@ -22,10 +22,11 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
  ## PayslipGenerator (Console application struture)
  
-  **Core** 
-     PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
+  **Core Folder** 
+  
+     **PayslipCreator.cs** - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
                          to generate payslip information.
-     Exceptions - Contains custom exception/exceptions where you can use it in the application.
+     **Exceptions** - Contains custom exception/exceptions where you can use it in the application.
                       
      Interfaces - Contains Interfaces for services used in the application. this contracts can be used the mock the behaviour of the services when needed(specially 
                   in unit testing.
