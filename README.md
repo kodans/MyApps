@@ -1,5 +1,8 @@
 # PayslipGenerator
-solution consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test project (PayslipGenerator.Tests)
+solution has been implemented as a C# console application to generate a monthly payslip information given employee details firstname,lastname and annualsalary as console arguments. Payslip information details Employee's name, Gross monthly income , 
+ monthly payslip information contains  name,gross monthly income,monthly income tax and net monthly income. 
+
+Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test project (PayslipGenerator.Tests)
 ## Usage Instructions
  run console application:
  
