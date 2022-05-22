@@ -9,6 +9,9 @@ solution consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
  ## PayslipGenerator (Console application struture)
  
-  **Core** 
+  **Core**
+     **Exceptions** - Contains custom exception/exceptions where you can use it in the application.
+                      E.g:CustomException.cs
+    
     
     
