@@ -26,9 +26,13 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
   
      Exceptions - Contains custom exception/exceptions where you can use it in the application.
                       
-     Interfaces - Contains Interfaces for services used in the application.
+     Interfaces - Contains Interfaces for services used in the application. this contracts can be used the mock the behaviour of the services when needed(specially 
+                  in unit testing.
      
-     Models   - Contains models/entities used in the application.
+     Models   - Contains models/entities used in the application. These are models or entities used throught the application. 
+                 Employee model - firstname , lastname and annualsalary with validation.
+                 TaxItem model - minValue and maxValue and TaxRate defining a tax rule 
+                 
      
      Services - Contains services for Employee creation and TaxCalculations.
      
