@@ -38,7 +38,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
      Services - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.
      
   **Infrastructure** 
-      Contains source for TaxRules. 
+     TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
     
  ## PayslipGenerator.Tests (xunit test project)
        xunit test project created test TaxCreation and EmployeeCreation services mainly.possible of extending by adding more unit tests when application grows.  
