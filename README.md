@@ -35,7 +35,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
   **Core Folder** 
   
-     PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
+   PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
                          to generate payslip information.
      Exceptions folder - Contains custom exception/exceptions where you can use it in the application.
                       
@@ -46,13 +46,15 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
                  Employee model - firstname , lastname and annualsalary with validation.
                  TaxItem model - minValue and maxValue and TaxRate defining a tax rule 
                 
-     Services folder - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.  
+     Services folder - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.
+  
+      
     
      
   **Infrastructure Folder** 
+  
+  TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
      
-     TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
- 
  Design decisions: Folder structue (Core and Infrastrucre and can be extended) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make the soltion structure simply well-factored. Interfaces are used in appropriate places to swap the implementation logic whenever needed.(E.g: in unit testing). Nature of this structure is to support modularity and encapsulation.
  
  ## PayslipGenerator.Tests (xunit test project)
