@@ -23,7 +23,7 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  ## PayslipGenerator (Console application struture)
  
   **Core** 
-     PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
+  PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
                          to generate payslip information.
      Exceptions - Contains custom exception/exceptions where you can use it in the application.
                       
@@ -35,7 +35,8 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
                  TaxItem model - minValue and maxValue and TaxRate defining a tax rule 
                  
      
-     Services - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.
+     Services - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.  
+    
      
   **Infrastructure** 
      TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
