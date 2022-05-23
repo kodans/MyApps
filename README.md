@@ -29,7 +29,7 @@ install/run  PayslipGenerator(console application):
            
      arg2- Annual Salary (60000)
           
-    E.g: dotnet run "Mary Song" 60000
+     E.g: dotnet run "Mary Song" 60000
  
  programm will then output the payslip details.
 
