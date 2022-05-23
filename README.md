@@ -58,6 +58,12 @@ Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test proj
  
  ## PayslipGenerator.Tests (xunit test project)
  
- xunit test project created test TaxCreation and EmployeeCreation services mainly.possibility of extending by adding more unit tests when application logic grows.  
+ xunit test project created test TaxCreation and EmployeeCreation services mainly.possibility of extending by adding more unit tests when application logic grows.
+ EmployeeServiceCreate.cs - unit tests around Employee creation and exception raising for validating fisrtname , lastname and annual salary.
+ TaxCalculatorCalcuate.cs - unit tests around tax creation logic and exception raising. 
+ 
+ These tests were added to cover  Taxcalculationlogic and Employee creation logic which is the main purpose of the Payslip calculation. Can have intergration tests convering more bussiness logic.
+ 
+ 
  
        
