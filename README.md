@@ -1,5 +1,5 @@
 # PayslipGenerator
-Solution has been implemented as a C# console application to generate a monthly payslip information given employee details firstname,lastname and annual salary as console arguments. Payslip information details Employee's name, Gross monthly income , 
+Solution has been implemented as a C# console application to generate a monthly payslip information given employee details name(firstname and lastname) and annual salary as console arguments. Payslip information details Employee's name, Gross monthly income , 
  monthly payslip information contains  name,gross monthly income,monthly income tax and net monthly income. 
  
  Gross monthly income = annual salary /12 
