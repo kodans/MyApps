@@ -3,7 +3,7 @@ Solution has been implemented as a C# console application to generate a monthly 
  monthly payslip information contains  name,gross monthly income,monthly income tax and net monthly income. 
  
  Gross monthly income = annual salary /12 
- monthly income tax = income tax calculated according to the tax rules given below. 
+ monthly income tax = income tax calculated according to the tax calculations given below. 
  
  $0 - $20 000 - $0
  
