@@ -34,9 +34,10 @@ install/run  PayslipGenerator(console application):
  programm will then output the payslip details.
 
  run Tests:
- Navigate to the PayslipGenerator.Tests using commandline 
- run dotnet build
- run dotnet test
+ 
+     Navigate to the PayslipGenerator.Tests using commandline 
+     
+     run dotnet test
  
  ## PayslipGenerator (Console application struture)
  Core Folder includes 
