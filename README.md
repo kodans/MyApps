@@ -18,9 +18,9 @@ Applicaiton is written using Microsoft Visual Studio Professional 2022
 
 install/run  PayslipGenerator(console application):
 
-1.)CommandLine:
+1.)command line:
 
- Open the folder structure and navigate to the PayslipGenerator class Library folder using commandline
+ Open the folder structure and navigate to the PayslipGenerator class Library folder using command line
  
      1.)dotnet build
      
@@ -35,7 +35,7 @@ install/run  PayslipGenerator(console application):
 
  run Tests:
  
-     Navigate to the PayslipGenerator.Tests using commandline 
+     Navigate to the PayslipGenerator.Tests using command line 
      
      run dotnet test
      
