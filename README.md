@@ -21,8 +21,10 @@ install/run  PayslipGenerator(console application):
 1.)CommandLine:
 
  Open the folder structure and navigate to the PayslipGenerator class Library folder using commandline
-   1.)dotnet build
-   2.)dotnet run <arg1> <arg2> 
+ 
+     1.)dotnet build
+     
+     2.)dotnet run <arg1> <arg2> 
      arg1- firstname and lastname sepearted by space ("Mary Song")
            
      arg2- Annual Salary (60000)
