@@ -63,7 +63,7 @@ install/run  PayslipGenerator(console application):
    PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are being
                          used to generate payslip information.
                          
-   Exceptions folder - Contains custom exception/exceptions where you can use it in the application to raise exception.
+   Exceptions folder - Contains custom exception/exceptions where you can use it in the application to raise exceptions.
                       
    Interfaces folder - Contains Interfaces for services used in the application. this contracts can be used the mock the behaviour of the services when needed(specially in unit testing).
      
@@ -79,7 +79,7 @@ install/run  PayslipGenerator(console application):
   
   TaxItemsSource.cs -  This will generate the list of TaxItems as a collection. purpose of this class creation is to seperate the Tax Items generation. 
      
- Design decisions: Folder structue (Core and Infrastrucre and can be extended) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make the soltion structure simply well-factored. Interfaces are used in appropriate places to swap the implementation logic whenever needed.(E.g: in unit testing). Nature of this structure is to support modularity and encapsulation.
+ Design decisions: Folder structue (Core and Infrastrucre and can be extended) created for seprate models(entities),services,exceptions and interfaces used in the applicaitons to make the solution structure simply well-factored. Interfaces are used in appropriate places to swap the implementation logic whenever needed.(E.g: in unit testing). Nature of this structure is to support modularity and encapsulation.
  
  ## PayslipGenerator.Tests (xunit test project)
  
