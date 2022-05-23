@@ -6,9 +6,13 @@ Solution has been implemented as a C# console application to generate a monthly 
  monthly income tax = income tax calculated according to the tax rules given below. 
  
  $0 - $20 000 - $0
+ 
  $20001 -$40000 -10c for each $1 over $20,000
+ 
  $40,001 - $80,000 - 20c for each $1 over $40,000
+ 
  $80,001 - $180,000 -30c for each $1 over $80,000
+ 
  $180,001 and over - 40c for each $1 over $180,000
  
 
