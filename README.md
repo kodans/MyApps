@@ -38,6 +38,8 @@ install/run  PayslipGenerator(console application):
      Navigate to the PayslipGenerator.Tests using commandline 
      
      run dotnet test
+     
+ Alternatively you can open the PayslipGenerator.sln with Visual Studio to run the Console applicaiton providing command line arguments via debug and run the unit tests using test explorer. 
  
  ## PayslipGenerator (Console application struture)
  Core Folder includes 
