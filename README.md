@@ -14,11 +14,28 @@ Solution has been implemented as a C# console application to generate a monthly 
 
 Soltuion consits of C# consoleapplicaiton (PayslipGenerator) and Xunit test project (PayslipGenerator.Tests)
 ## Usage Instructions
- run console application:
- 
- run Tests
+Applicaiton is written using Microsoft Visual Studio Professional 2022 
 
- Applicaiton is written using Microsoft Visual Studio Professional 2022 
+install/run  PayslipGenerator(console application):
+
+1.)CommandLine:
+
+ Open the folder structure and navigate to the PayslipGenerator class Library folder using commandline
+ run dotnet build
+  Once it successfully build 
+ run dotnet run <arg1> <arg2> 
+     arg1- firstname and lastname sepearted by space ("Mary Song")
+           
+     arg2- Annual Salary (60000)
+          
+    E.g: dotnet run "Mary Song" 60000
+ 
+ programm will then output the payslip details.
+
+ run Tests:
+ Navigate to the PayslipGenerator.Tests using commandline 
+ run dotnet build
+ run dotnet test
  
  ## PayslipGenerator (Console application struture)
  Core Folder includes 
