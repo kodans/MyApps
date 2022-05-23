@@ -60,15 +60,15 @@ install/run  PayslipGenerator(console application):
  
   **Core Folder** 
   
-   PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are later
-                         to generate payslip information.
+   PayslipCreator.cs - Contains logic responsible for payslip creation. class contructor takes ITaxItemsSource and IEmployeeService as arguments which are being
+                         used to generate payslip information.
                          
-   Exceptions folder - Contains custom exception/exceptions where you can use it in the application.
+   Exceptions folder - Contains custom exception/exceptions where you can use it in the application to raise exception.
                       
    Interfaces folder - Contains Interfaces for services used in the application. this contracts can be used the mock the behaviour of the services when needed(specially in unit testing).
      
    Models folder  - Contains models/entities used in the application. These are models( or entities) used throught the application.Employee model - firstname, lastname and annualsalary with validation.
-                 TaxItem model - minValue and maxValue and TaxRate defining a tax rule 
+                 TaxItem model - minValue and maxValue and TaxRate 
                 
  Services folder - Contains services for Employee creation(EmployeeService) and Monthly tax calculation(TaxCalculateService) implementing IEmployeeService and            ITaxCalculateService.
   
